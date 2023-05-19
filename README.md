@@ -10,3 +10,6 @@ She, who supports me with all she have, mom i'm gonna make your life a bit easie
 
 I'm from Argentina, so we suffer price changings almost every week (if not every day), as an independent store administrator this will replace: (Pencil, Paper, Doing maths) = Saving time
 
+<p align="center">
+  <img height="800" src="./DiscountAddition.jpg" />
+</p>
