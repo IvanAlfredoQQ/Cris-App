@@ -6,6 +6,7 @@ She, who supports me with all she have, mom i'm gonna make your life a bit easie
 
 ## This app will contain small tools to improve the daily needs of a person who struggles even to operate her smartphone effectively
 
-- __DISCOUNTS & ADDITIONS__
+- __DISCOUNTS & ADDITIONS__.
+
 I'm from Argentina, so we suffer price changings almost every week (if not every day), as an independent store administrator this will replace: (Pencil, Paper, Doing maths) = Saving time
 
