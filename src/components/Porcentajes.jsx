@@ -14,10 +14,10 @@ export default function Porcentajes() {
     })
 
 return(
-    <View style={{flex: 1, justifyContent:'center', alignItems: 'center', gap: 100}}>
+    <View style={{justifyContent:'center', alignItems: 'center', gap: 100}}>
         <View>
             <Text>Descuentos</Text>
-            <View style={{display: 'flex', flexDirection:'row', alignItems:'center', gap: 20}}>
+            <View style={{display: 'flex', flexDirection:'row', alignItems:'center', gap: 20 }}>
                 <TextInput placeholder="PRECIO" keyboardType='numeric' onChangeText={(text)=> setDiscount({...discount, price: text})}></TextInput>
                 <Text>el descuento es de:</Text>
                 <TextInput placeholder="%" keyboardType='numeric' onChangeText={(text)=> setDiscount({...discount, percent: text})}></TextInput>

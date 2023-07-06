@@ -1,12 +1,15 @@
-import Constants from "expo-constants"
+import Menu from "./Menu";
 import Porcentajes from "./Porcentajes";
 
-import { Text, View } from "react-native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 export default function Main() {
-    return(
-        <View style={{flex: 1, justifyContent:'center', alignItems: 'center'}}>
-            <Porcentajes/>
-        </View>
-    )
+  const Stack = createNativeStackNavigator();
+
+  return (
+      <Stack.Navigator initialRouteName="Menu">
+        <Stack.Screen name="Menu" component={Menu} />
+        <Stack.Screen name="Porcentajes" component={Porcentajes} />
+      </Stack.Navigator>
+  );
 }
